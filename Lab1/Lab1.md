@@ -12,7 +12,11 @@
 
 ## Section 2 – Introduction
 
-(intro: In your own words: What is Azure Machine Learning? What is the Designer? Why are these tools relevant to cloud professionals in 2025?)
+Azure Machine Learning (Azure ML) is a cloud-based platform provided by Microsoft for building, training, deploying, and managing machine learning models. It provides a set of tools and services to help users work with data, create machine learning workflows, and monitor model performance in cloud environment. 
+
+The Azure Machine Learning Designer is a visual interface which allows the users to build a machine learning pipelines without writing code.
+
+These tools are highly relevant to cloud professionals in 2025 because many organizations are integrating AI and machine learning into business operations. Cloud professionals also need to understand how to manage the ML infrastructure, automate workflows, and deploy scalable AI solutions using modern cloud platforms such as Azure.
 
 ## Section 3 – Lab Walkthrough with Screenshots
 
