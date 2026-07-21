@@ -42,3 +42,13 @@ The first attempt failed to answer in scope.
 
 Modified the prompt and set temperature to 0.
 ![3-2](/Lab10/Screenshots/3-2.png)
+
+### Module 4: Security & Governance
+
+The key-based call failed.
+![4-1](/Lab10/Screenshots/4-1.png)
+
+The RBAC-authenticated client still worked.
+![4-2](/Lab10/Screenshots/4-2.png)
+
+Governing the model-serving tier in Kubernetes part was skipped because the lab was adapted to run Ollama locally instead of using the shared AKS cluster.
