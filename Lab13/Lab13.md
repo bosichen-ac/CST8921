@@ -39,7 +39,7 @@ The ETL pipeline transformed the data before writing it to storage. In compariso
 
 **Both pipelines produced the same final output. What is the key architectural difference between them? (Hint: timing of transformation in the workflow.)**
 
-In the ETL pattern, the workflow follows an "extract-transform-load" pipeline. The data is first extracted from raw data, then transformed into dataframe, and finally loaded as output files. While in the ELT pattern, the workflow follows an "extract-load-transform" pipeline. At first the data is loaded from raw data, then the raw data is loaded as output files, and then the data is transformed into a SQL table, with another tramform to summary mart table at the end.
+In the ETL pattern, the workflow follows an "extract-transform-load" pipeline. The data is first extracted from raw data, then cleaned and transformed, and finally loaded as output files. While in the ELT pattern, the workflow follows an "extract-load-transform" pipeline. At first the data is loaded from raw data, then the raw data is loaded as output files, and then the data is cleaned and transformed, with another tramform to summary mart table at the end.
 
 ### Question 2: Data Preservation in ELT
 
@@ -51,7 +51,7 @@ Changing business requirements means changing the data processing logic. By keep
 
 **The ELT pipeline built a category_summary mart as a second SQL step without touching the ETL workflow. How does this demonstrate ELT's flexibility?**
 
-In ELT, only the loaded raw data are used for further processing. This can prevent the 
+In ELT, the loaded raw data can be reused for different types of processing. This allows new transformations and analytics to be added without changing the original data-loading process.
 
 ### Question 4: Scalability on Large Data
 
